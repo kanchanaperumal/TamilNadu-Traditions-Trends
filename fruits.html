@@ -1,0 +1,764 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/head.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+	
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Fruits</title>
+<!-- InstanceEndEditable -->
+<meta name="viewport" content="width-device-width", initial scale="1.0"/>
+	<style type="text/css">
+		
+		body{
+	font-family:monospace;
+	outline: none;
+	background-image:url(img/1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color:#CCCCCC;
+	height:100%;
+		}
+		.dropdown-menu{
+		background-color:#CCCCCC;
+		}
+		.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+	top: 0;
+	left: 100%;
+	margin-top: -6px;
+	margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+	border-radius: 0 6px 6px 6px;
+	background-color: #CCCCCC;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #666666;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+Share
+Improve this answer
+Follow.style1 {color: #F0F0F0}
+    body,td,th {
+	color: #000000;
+	font-family: Georgia, Times New Roman, Times, serif;
+	font-style: italic;
+}
+.style7 {font-weight: bold}
+    .style8 {color: #000000}
+    </style>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <a class="navbar-brand" href="#"><img src="img/1.png" width="71" height="35" class="rounded" alt="Cinque Terre"></a>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="head.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+         <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Food
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li><a class="dropdown-item" href="fruits.html">Fruits</a></li>
+          <li><a class="dropdown-item" href="vegetables.html">Vegetables</a></li>
+		  
+          <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Recipes by Food</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="vegetarian.html">Vegetarian</a></li>
+              <li><a class="dropdown-item" href="Non-Vegetarian.html">Non-Vegetarian</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="dress.html">Dress</a>
+      </li>
+ <li class="nav-item">
+        <a class="nav-link" href="jewellary.html">Jwellery</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="appliences.html">Appliences</a>
+      </li>
+ <li class="nav-item">
+        <a class="nav-link" href="games.html">Games</a>
+      </li>
+    </ul>
+	      </div>
+</nav>
+<!-- InstanceBeginEditable name="EditRegion1" -->
+<div> 
+<div class="container">
+  <div class="row">
+    <div class="col-sm"><h4>1. Pithecellobium dulce or Jungle Jalebi</h4>
+     <img src="img/Pithecellobium dulce or Jungle Jalebi.jpg" width="300" height="170">
+	 <h5>Tamil Name is "Koduka Puli"</h5>    </div>
+    <div class="col-sm">
+      <h4>Superb Health Benefits Of The Jungle Jalebi Fruit:</h4>
+      <div align="justify">&#8226;  Promotes Weight Loss.</br>
+        &#8226;  Cures Gut Problems.</br>
+        &#8226;  Manages Diabetes Symptoms.</br>
+        &#8226;  Fortifies Bones And Muscles.</br>
+        &#8226;  Boosts Immune Function.</br>
+        &#8226;  Promotes Oral Health.</br>
+        &#8226;  Relieves Anxiety And Depression.</br>
+      </div>
+    </div>
+    <div class="col-sm">
+	<h4>Video Here</h4>
+	<p></p>
+    <iframe width="350" height="200"
+src="https://www.youtube.com/embed/lzoc9CFVwIA">
+</iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm"><h4>2. Wood Apple(Bael fruit)</h4>
+<img src="img/Wood-Apple(Bael fruit).jpg" width="300" height="170">
+    <h5>Tamil Name is "Vilam or Velanga Pazham"</h5></div>
+    <div class="col-sm">
+	
+      <h4>Benefits Of The Wood Apple(Bael fruit)</h4>
+      <div align="justify">&#8226;  Wood Apple Squash helps easing digestion.</br>
+        &#8226;  It also helps in curing chronic respiratory conditions.</br>
+        &#8226;  It gives you a boost of energy in summers. </br>
+        &#8226;  It is highly recommended for people suffering from kidney disorders.</br>
+        &#8226;  It purifies the blood.</br>
+      </div>
+    </div>
+        <div class="col-sm">
+		<h4>Video Here</h4>
+	<p></p>
+      <iframe width="350" height="200"
+src="https://www.youtube.com/embed/sAQ8pgUbY0A">
+</iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm"><h4>3. Carissa corandas</h4>
+<img src="img/Carissa corandas.jpg" width="300" height="170">
+    <h5>Tamil Name is "kalakaai or sottha kalakaai"</h5></div>
+    <div class="col-sm">
+	
+      <h4>Benefits Of The Carissa corandas</h4>
+      <div align="justify">&#8226;  It removes impurities from the Blood.</br>
+        &#8226;  It stops Internal Bleeding.</br>
+        &#8226;  It alleviates Cough. </br>
+        &#8226;  It removes impurities from the Blood.</br>
+        &#8226;  It is also used during Stomach Ache.</br>
+		&#8226;  It is suggested during Constipation to get relief.</br>
+      </div>
+    </div>
+        <div class="col-sm">
+		<h4>Video Here</h4>
+	<p></p>
+      <iframe width="350" height="200"
+src="https://www.youtube.com/embed/hc-qMrKSZuU">
+</iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm"><h4>4. Bush Passion Fruit</h4>
+<img src="img/Bush passion.jpg" width="300" height="170">
+    <h5>Tamil Name is "poochapazham"</h5></div>
+    <div class="col-sm">
+	
+      <h4>Benefits Of The Bush Passion Fruit</h4>
+      <div align="justify">&#8226;  Maintain healthy bones.</br>
+        &#8226;  Prevent Anemia.</br>
+        &#8226;  Prevent Cancer. </br>
+        &#8226;  Controlling your blood pressure.</br>
+        &#8226;  Maintaining healthy gums and teeth.</br>
+		&#8226;  Can overcome the Kidney Disorder.</br>
+      </div>
+    </div>
+        <div class="col-sm">
+		<h4>Video Here</h4>
+	<p></p>
+      <iframe width="350" height="200"
+src="https://www.youtube.com/embed/rIkkUW5m8Rk">
+</iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm"><h4>5. Jujube Fruit</h4>
+<img src="img/Jujube fruit.jpg" width="300" height="170">
+    <h5>Tamil Name is "Ilanthai pazham"</h5></div>
+    <div class="col-sm">
+	
+      <h4>Benefits Of The Jujube Fruit</h4>
+      <div align="justify">&#8226; Helps You Sleep Better.</br>
+        &#8226;  Chronic Constipation Relief.</br>
+        &#8226;  Soothes Anxiety. </br>
+        &#8226;  Rich In Vitamin C.</br>
+        &#8226;  Improves Bone Strength.</br>
+		&#8226;  Regulates Blood Circulation.</br>
+		&#8226;  Regulates Blood Pressure.</br>
+      </div>
+    </div>
+        <div class="col-sm">
+		<h4>Video Here</h4>
+	<p></p>
+      <iframe width="350" height="200"
+src="https://www.youtube.com/embed/Af4v6RBzWSA">
+</iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm"><h4>6. Peepal Fruit </h4>
+<img src="img/peepal fruit.jpg" width="300" height="170">
+    <h5>Tamil Name is "Athipazham"</h5></div>
+    <div class="col-sm">
+	
+      <h4>Benefits Of The Peepal Fruit</h4>
+      <div align="justify">&#8226;  Take 5-10 fruits of peepal daily and it will cure the problem of constipation permanently.</br>
+        &#8226;  Take half spoon of peepal fruit powder thrice a day with milk . You will get rid of impotency and give strength to the body..</br>
+        &#8226;  Peepal fruit can also be taken for cough, pitta, blood-related problems, burning sensation and vomitting etc.. </br>
+      </div>
+    </div>
+        <div class="col-sm">
+		<h4>Video Here</h4>
+	<p></p>
+      <iframe width="350" height="200"
+src="https://www.youtube.com/embed/m8SZuu2Ff1s">
+</iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>7. Guava</h4>
+        <img src="img/guava.jpg" width="300" height="170">
+    <h5>Tamil Name is "Koiyapazham"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Guava</h4>
+    <div align="justify">
+	    &#8226;  May Help Lower Blood Sugar Levels.</br>
+        &#8226;  May Boost Heart Health.</br>
+        &#8226;  May Have an Anticancer Effect. </br>
+        &#8226;  May Benefit Your Digestive System.</br>
+        &#8226;  May Aid Weight Loss.</br>
+		&#8226;  May Help Boost Your Immunity.</br>
+        &#8226;	 Eating Guavas May Be Good for Your Skin.</br>
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/p-4r2XZvk5A">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm"><h4>8. Chikoo</h4>
+<img src="img/chikoo.jpg" width="300" height="170">
+    <h5>Tamil Name is "Sapota"</h5></div>
+    <div class="col-sm">
+	
+      <h4>Benefits Of The Chikoo</h4>
+      <div align="justify">
+	    &#8226;  Promotes Gud Health.</br>
+        &#8226;  Stronger Bones.</br>
+        &#8226;  Bolsters Immunity. </br>
+        &#8226;  Boost Energy.</br>
+        &#8226;  Healthy Skin.</br>
+		&#8226;  Prevents Cancer.</br>
+		&#8226;  Controls Blood Pressure.</br>
+      </div>
+    </div>
+        <div class="col-sm">
+		<h4>Video Here</h4>
+	<p></p>
+      <iframe width="350" height="200"
+src="https://www.youtube.com/embed/hCJhk4B2nHg">
+</iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>9. Mango</h4>
+<img src="img/mango.jpg" width="300" height="170">
+    <h5>Tamil Name is "Maambhazham"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Mango</h4>
+    <div align="justify">
+	    &#8226;  Mango is one of the highest food sources of vitamin C.</br>
+        &#8226;  Mango demonstrates some exciting potential when it comes to healthy weight control.</br>
+        &#8226;  Mango decreased tumor size and suppressed cancer growth factors.. </br>
+        &#8226;  Mango consumption has shown impressive results in people with chronic constipation.</br>
+        
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/sVMYfZ-_R08">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>10. Cherimoya or Custard Apple</h4>
+        <img src="img/custard apple.jpg" width="300" height="170">
+    <h5>Tamil Name is "Sitapazham"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Cherimoya or Custard Apple</h4>
+    <div align="justify">
+	    &#8226;  Cherimoya is loaded with antioxidants, which fight free radicals in your body.</br>
+        &#8226;  May have anticancer properties. </br>
+        &#8226;  It’s loaded with beneficial nutrients that may support your mood, immunity, and digestion.</br>
+        &#8226;  This unique fruit can be a great addition to a nutrient-dense, balanced diet.</br>
+	  </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/RH8n_K3dBuY">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>11. Jamun Plum</h4>
+        <img src="img/jamun plum.jpg" width="300" height="170">
+    <h5>Tamil Name is "Naaval Pazham"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Jamun Plum</h4>
+    <div align="justify">
+	    &#8226;  Loaded with vitamin C and iron, jamun increases hemoglobin.</br>
+        &#8226;  Due to the antibacterial properties of Jamun fruit juice, it is used for dandruff.</br>
+        &#8226;  Bleeding hemorrhoids can be cured by regular consumption of Jamun fruit. </br>
+        &#8226;  For treating piles and hemorrhoids, Jamun fruit juice is very effective.</br>
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/_Em4PJHlATQ">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>12. Banana</h4>
+        <img src="img/banana.jpg" width="300" height="170">
+    <h5>Tamil Name is "Vazhai Pazham"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Banana</h4>
+    <div align="justify">
+	    &#8226;  Banana is loaded with fibre, both soluble and insoluble. </br>
+        &#8226;  High fibre foods are said to be good for the heart.</br>
+        &#8226;  According to Ayurveda, banana has a sweet and sour taste.</br>
+        &#8226;  Banana is a heavyweight when it comes to nutrition.</br>
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/qlQ0PozZw8s">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>13. Grape</h4>
+        <img src="img/grape.jpg" width="300" height="170">
+    <h5>Tamil Name is "Dhirachai"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Grape</h4>
+    <div align="justify">
+	    &#8226;  Packed With Nutrients, Especially Vitamins C and K.</br>
+        &#8226;  High Antioxidant Contents May Prevent Chronic Diseases.</br>
+        &#8226;  Beneficial for Heart Health in Various Impressive Ways</br>
+        &#8226;  May Decrease Blood Sugar Levels and Protect Against Diabetes.</br>
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/AQc0s-o5Tz8">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>14. Rampal</h4>
+        <img src="img/Rampal.jpg" width="300" height="170">
+    <h5>Tamil Name is "Ramsita Pazham"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Rampal</h4>
+    <div align="justify">
+	    &#8226;  Ramphal is a remedy for hair loss and acne.</br>
+        &#8226;  Ramphal contains elements that reduce blood sugar in the body.</br>
+        &#8226;  Ramphal helps treat anaemia as the iron present in it helps produce haemoglobin and transport of oxygen to the body's cells</br>
+		&#8226;  Vitamin C and antioxidants contribute to boosting immunity.</br>
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/DdexwWpRiaI">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>15. Eacham Pazham</h4>
+        <img src="img/echam.jpg" width="300" height="170">
+    <h5>Tamil Name is "Eacham Pazham"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Eacham Pazham</h4>
+    <div align="justify">
+	    &#8226;  Oxidation can be very dangerous as it can be very harmful to the structural and genetic integrity of your cells.</br>
+        &#8226;  This is an antioxidant that can benefit your body by helping with multiple issues.</br>
+        &#8226;  Phenolic acid is a much-discussed antioxidant mainly known for its anti-inflammatory properties. </br>
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/stWAO3ee5xY">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>16. Palmrya Fruit</h4>
+        <img src="img/palmrya.jpg" width="300" height="170">
+    <h5>Tamil Name is "PanamPazham"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Palmrya Fruit</h4>
+    <div align="justify">
+	    &#8226;  Helps relieve digestive problems</br>
+        &#8226;  Helps relieve skin related problems.</br>
+        &#8226;  Cools the Body. </br>
+        &#8226;  Helps Reduce Weight.</br>
+        &#8226;  Heals Migraines.</br>
+		&#8226;  Prevention of Diabetes.</br>
+        &#8226;	 Home Remedy for Many Ailments.</br>
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/_zkbeRRf-iY">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>17. Star Gooseberry</h4>
+        <img src="img/star gooseberry.jpg" width="300" height="170">
+    <h5>Tamil Name is "Arai Nelli"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Star Gooseberry</h4>
+    <div align="justify">
+	    &#8226;  Star gooseberry concoctions also act as a liver tonic and blood enrichment remedy.</br>
+        &#8226;  Also used to remedy bronchitis, biliousness, and treat digestive disorders such as urinary concretions, diarrhea, and piles. </br>
+        &#8226;  Another concoction includes making a leaf poultice with added pepper to treat sciatica and rheumatism.</br>
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/38qy78hZBXg">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>18. Amla</h4>
+        <img src="img/amla.jpeg" width="300" height="170">
+    <h5>Tamil Name is "Kaatu Nellikai"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Amla</h4>
+    <div align="justify">
+	    &#8226;  Promotes immune function.</br>
+        &#8226;  Enhances liver health.</br>
+        &#8226;  Supports healthy digestion. </br>
+        &#8226;  Promotes heart health.</br>
+        &#8226;  May increase hair growth.</br>
+		&#8226;  Improves kidney health.</br>
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/MAy7TUdFPRA">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>19. Fig Fruit</h4>
+        <img src="img/fig fruit.jpg" width="300" height="170">
+    <h5>Tamil Name is "Athipazham"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Fig Fruit</h4>
+    <div align="justify">
+	    &#8226;  Fiber forms an essential part of our daily diet.</br>
+        &#8226;  figs were considered to be a sacred fruit and a natural aphrodisiac.</br>
+        &#8226;  The high fiber content in figs helps in maintaining a healthy digestive system, thus also aids in preventing constipation. </br>
+        &#8226;  Dried figs are a good source of calcium.</br>
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/mYuNIDY3fU8">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>20. Kara Fruit</h4>
+        <img src="img/kara Fruit.jpg" width="300" height="170">
+    <h5>Tamil Name is "Karapazham"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Kara Fruit</h4>
+    <div align="justify">
+	    &#8226;  Promotes immune function.</br>
+        &#8226;  May Boost Heart Health.</br>
+        &#8226;  May Have an Anticancer Effect. </br>
+        &#8226;  May Benefit Your Digestive System.</br>
+        &#8226;  Chronic Constipation Relief.</br>
+		&#8226;  May Help Boost Your Immunity.</br>
+        &#8226;	 Eating karapazham May Be Good for Your Skin.</br>
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/gk74Mqr28X8">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>21. Lemon</h4>
+        <img src="img/lemon.jpg" width="300" height="170">
+    <h5>Tamil Name is "Elumichai Pazham"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Lemon</h4>
+    <div align="justify">
+	    &#8226;  It promotes hydration.</br>
+        &#8226;  It’s a good source of vitamin C.</br>
+        &#8226;  It supports weight loss. </br>
+        &#8226;  It improves your skin quality.</br>
+        &#8226;  It aids digestion.</br>
+		&#8226;  It freshens breath.</br>
+        &#8226;	 It helps prevent kidney stones.</br>
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/hXZzs8M_9Xg">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>22. Ivy Gourd</h4>
+        <img src="img/ivy gourd.jpg" width="300" height="170">
+    <h5>Tamil Name is "Kovai Pazham"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Ivy Gourd</h4>
+    <div align="justify">
+	    &#8226;  Ivy gourd extract blood sugar.</br>
+        &#8226;  Ivy Gourd Prevents Obesity.</br>
+        &#8226;  Ivy Gourd for Fatigue. </br>
+        &#8226;  Ivy Gourd Defends Nervous System.</br>
+        &#8226;  Ivy Gourd Increased Metabolism.</br>
+		&#8226;  Ivy Gourd Improved Digestion.</br>
+        &#8226;	 Ivy gourd for kidney stones.</br>
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/rClx7SaAdUk">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>23. Watermelon</h4>
+        <img src="img/watermelon.jpg" width="300" height="170">
+    <h5>Tamil Name is "Dharboosani"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Watermelon</h4>
+    <div align="justify">
+	    &#8226;  Helps You Hydrate.</br>
+        &#8226;  Contains Nutrients and Beneficial Plant Compounds.</br>
+        &#8226;  Contains Compounds That May Help Prevent Cancer. </br>
+        &#8226;  May Improve Heart Health.</br>
+        &#8226;  May Lower Inflammation and Oxidative Stress.</br>
+	  </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/F5QH5oU2o9U">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>24. Tamarind</h4>
+        <img src="img/tamarind.jpg" width="300" height="170">
+    <h5>Tamil Name is "Puliyampazham"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Tamarind</h4>
+    <div align="justify">
+	    &#8226;  Its Antioxidants May Boost Heart Health.</br>
+        &#8226;  It’s High in Beneficial Magnesium.</br>
+        &#8226;  It May Have Anti-fungal, Antiviral and Antibacterial Effects. </br>
+        &#8226;  These can protect against diseases such as heart disease, cancer and diabetes.</br>
+        &#8226;  Tamarind is rich in a number of essential nutrients.</br>
+	  </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/CYhLNWvL8dA">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>25. Carambola or Star Fruit</h4>
+        <img src="img/carambola.jpg" width="300" height="170">
+    <h5>Tamil Name is "Arjuna Pazham"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Carambola/Star Fruit</h4>
+    <div align="justify">
+	    &#8226;  Carambola fruit is loaded with dietary fibre that helps in flushing out fat and cholesterol.</br>
+        &#8226;  Star fruit is one of the preferred choices of fruit for all dieters as it is low in calories and dense in fibre.</br>
+        &#8226;  People with kidney problems should consult the doctor before consuming the fruit. </br>
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/KC8n-vjKuHs">
+     </iframe>
+    </div>
+  </div>
+</div>
+<!-- InstanceEndEditable -->
+</div>
+
+</body>
+<!-- InstanceEnd --></html>
