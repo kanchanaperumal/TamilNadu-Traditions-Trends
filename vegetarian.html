@@ -1,0 +1,407 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/head.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+	
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Vegetarian</title>
+<!-- InstanceEndEditable -->
+<meta name="viewport" content="width-device-width", initial scale="1.0"/>
+	<style type="text/css">
+		
+		body{
+	font-family:monospace;
+	outline: none;
+	background-image:url(img/1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color:#CCCCCC;
+	height:100%;
+		}
+		.dropdown-menu{
+		background-color:#CCCCCC;
+		}
+		.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+	top: 0;
+	left: 100%;
+	margin-top: -6px;
+	margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+	border-radius: 0 6px 6px 6px;
+	background-color: #CCCCCC;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #666666;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+Share
+Improve this answer
+Follow.style1 {color: #F0F0F0}
+    body,td,th {
+	color: #000000;
+	font-family: Georgia, Times New Roman, Times, serif;
+	font-style: italic;
+}
+.style7 {font-weight: bold}
+    .style8 {color: #000000}
+    </style>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <a class="navbar-brand" href="#"><img src="img/1.png" width="71" height="35" class="rounded" alt="Cinque Terre"></a>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="head.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+         <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Food
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li><a class="dropdown-item" href="fruits.html">Fruits</a></li>
+          <li><a class="dropdown-item" href="vegetables.html">Vegetables</a></li>
+		  
+          <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Recipes by Food</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="vegetarian.html">Vegetarian</a></li>
+              <li><a class="dropdown-item" href="Non-Vegetarian.html">Non-Vegetarian</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="dress.html">Dress</a>
+      </li>
+ <li class="nav-item">
+        <a class="nav-link" href="jewellary.html">Jwellery</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="appliences.html">Appliences</a>
+      </li>
+ <li class="nav-item">
+        <a class="nav-link" href="games.html">Games</a>
+      </li>
+    </ul>
+	    <ul class="nav navbar-nav navbar-right">
+      	  <li class="nav-item">
+        <a class="nav-link" href="logout.php"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-left" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z"/>
+  <path fill-rule="evenodd" d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"/>
+</svg>
+Logout<span class="sr-only">(current)</span></a>
+      </li>
+</ul>
+	
+  </div>
+</nav>
+<!-- InstanceBeginEditable name="EditRegion1" -->
+<div> 
+  <p>&nbsp;</p>
+  <h1 align="center">Welcome To Our Tamil Nadu Food Court </h1>
+  <p>&nbsp;</p>
+  <div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4 align="center">1. Keppai Kali/Ragi Millet</h4>
+     <img src="img/Ragi Millet.jpg" class="rounded-pill" width="350" height="200"></br>
+	 <div class="form-group" align="center"><button type="button" class="btn btn-secondary">
+	 <a href="https://www.kitchenkathukutty.com/2018/05/28/ragi-kali-recipe/" class="btn btn-secondary">Food Recipe</a></button>
+	 <button type="button" class="btn btn-secondary"><a href="https://www.youtube.com/embed/EkjMsQ72IvY" class="btn btn-secondary">Cooking Video</a></button></div>
+	 </div>
+	  <div class="col-sm">
+	<h4 align="center">2. Dosai/Dosa Batter</h4>
+     <img src="img/dosa.jpg" class="rounded-pill" width="350" height="200"></br>
+	 <div class="form-group" align="center"><button type="button" class="btn btn-secondary">
+	 <a href="https://www.vegrecipesofindia.com/dosa-recipe-dosa-batter-recipe/" class="btn btn-secondary">Food Recipe</a></button>
+	 <button type="button" class="btn btn-secondary"><a href="https://www.youtube.com/embed/rJTz0Drb9kw" class="btn btn-secondary">Cooking Video</a></button></div>
+	 </div>
+	  <div class="col-sm">
+	<h4 align="center">3. Idly/Idly Batter</h4>
+     <img src="img/idli.jpg" class="rounded-pill" width="350" height="200"></br>
+	 <div class="form-group" align="center"><button type="button" class="btn btn-secondary">
+	 <a href="https://www.indianhealthyrecipes.com/soft-idli-recipe-using-idli-rava/" class="btn btn-secondary">Food Recipe</a></button>
+	 <button type="button" class="btn btn-secondary"><a href="https://www.youtube.com/embed/EYYYovifO2I" class="btn btn-secondary" >Cooking Video</a></button></div>
+	 </div>
+	 </div>
+	 </div>
+	 <div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4 align="center">4. Idiyappam/Rice Noodles</h4>
+     <img src="img/idiyappam.jpg" class="rounded-pill" width="350" height="200"></br>
+	 <div class="form-group" align="center"><button type="button" class="btn btn-secondary">
+	 <a href="https://revisfoodography.com/2017/01/idiyappam-string-hoppers/" class="btn btn-secondary">Food Recipe</a></button>
+	 <button type="button" class="btn btn-secondary"><a href="https://www.youtube.com/embed/6tRaDKbr-UU" class="btn btn-secondary">Cooking Video</a></button></div>
+	 </div>
+	  <div class="col-sm">
+	<h4 align="center">5. Kuzhi Panayaram</h4>
+     <img src="img/kuzhi-paniyaram.jpg" class="rounded-pill" width="350" height="200"></br>
+	 <div class="form-group" align="center"><button type="button" class="btn btn-secondary">
+	 <a href="https://simpleindianrecipes.com/kuzhipaniyaram.aspx" class="btn btn-secondary">Food Recipe</a></button>
+	 <button type="button" class="btn btn-secondary"><a href="https://www.youtube.com/embed/RVmrapa4joY" class="btn btn-secondary">Cooking Video</a></button></div>
+	 </div>
+	  <div class="col-sm">
+	<h4 align="center">6. Masal/Kara Vadai</h4>
+     <img src="img/kara vadai.jpg" class="rounded-pill" width="350" height="200"></br>
+	 <div class="form-group" align="center"><button type="button" class="btn btn-secondary">
+	 <a href="https://www.pachakam.com/recipes/kara-vadai" class="btn btn-secondary">Food Recipe</a></button>
+	 <button type="button" class="btn btn-secondary"><a href="https://www.youtube.com/embed/MQza_f4bkM4" class="btn btn-secondary" >Cooking Video</a></button></div>
+	 </div>
+	 </div>
+	 </div>
+	 <div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4 align="center">7. Ulundhu/Medhu Vadai</h4>
+     <img src="img/ulundhu vadai.jpg" class="rounded-pill" width="350" height="200"></br>
+	 <div class="form-group" align="center"><button type="button" class="btn btn-secondary">
+	 <a href="https://rakskitchen.net/medhu-vadai-ulundu-vadai-recipe-with-video/" class="btn btn-secondary">Food Recipe</a></button>
+	 <button type="button" class="btn btn-secondary"><a href="https://www.youtube.com/embed/oyTsigPJOfA" class="btn btn-secondary">Cooking Video</a></button></div>
+	 </div>
+	  <div class="col-sm">
+	<h4 align="center">8. Elumichai Sadham</h4>
+     <img src="img/lemon rice.jpg" class="rounded-pill" width="350" height="200"></br>
+	 <div class="form-group" align="center"><button type="button" class="btn btn-secondary">
+	 <a href="https://www.vegrecipesofindia.com/lemon-rice/" class="btn btn-secondary">Food Recipe</a></button>
+	 <button type="button" class="btn btn-secondary"><a href="https://www.youtube.com/embed/zqttjA0urt4" class="btn btn-secondary">Cooking Video</a></button></div>
+	 </div>
+	  <div class="col-sm">
+	<h4 align="center">9. Veg Sambar</h4>
+     <img src="img/sambar.jpg" class="rounded-pill" width="350" height="200"></br>
+	 <div class="form-group" align="center"><button type="button" class="btn btn-secondary">
+	 <a href="https://simpleindianrecipes.com/sambhar.aspx" class="btn btn-secondary">Food Recipe</a></button>
+	 <button type="button" class="btn btn-secondary"><a href="https://www.youtube.com/embed/eTUNt022kzI" class="btn btn-secondary" >Cooking Video</a></button></div>
+	 </div>
+	 </div>
+	 </div>
+	 <div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4 align="center">10. Thakkali Sadham</h4>
+     <img src="img/thakkali sadham.jpg" class="rounded-pill" width="350" height="200"></br>
+	 <div class="form-group" align="center"><button type="button" class="btn btn-secondary">
+	 <a href="https://www.vegrecipesofindia.com/tomato-rice-recipe-easy-tomato-rice/" class="btn btn-secondary">Food Recipe</a></button>
+	 <button type="button" class="btn btn-secondary"><a href="https://www.youtube.com/embed/3w5JWV3tHHE" class="btn btn-secondary">Cooking Video</a></button></div>
+	 </div>
+	  <div class="col-sm">
+	<h4 align="center">11. Rava Kesari</h4>
+     <img src="img/rava kesari.jpg" class="rounded-pill" width="350" height="200"></br>
+	 <div class="form-group" align="center"><button type="button" class="btn btn-secondary">
+	 <a href="https://www.indianhealthyrecipes.com/rava-kesari/" class="btn btn-secondary">Food Recipe</a></button>
+	 <button type="button" class="btn btn-secondary"><a href="https://www.youtube.com/embed/hopiYIkmJnU" class="btn btn-secondary">Cooking Video</a></button></div>
+	 </div>
+	  <div class="col-sm">
+	<h4 align="center">12. Kara/Ven Pongal</h4>
+     <img src="img/ven pongal.jpg" class="rounded-pill" width="350" height="200"></br>
+	 <div class="form-group" align="center"><button type="button" class="btn btn-secondary">
+	 <a href="https://www.indianhealthyrecipes.com/pongal-recipe-venn-pongal/" class="btn btn-secondary">Food Recipe</a></button>
+	 <button type="button" class="btn btn-secondary"><a href="https://www.youtube.com/embed/7K8lIikpg80" class="btn btn-secondary" >Cooking Video</a></button></div>
+	 </div>
+	 </div>
+	 </div>
+	 <div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4 align="center">13. Adhirasam</h4>
+     <img src="img/adhirasam.jpg" class="rounded-pill" width="350" height="200"></br>
+	 <div class="form-group" align="center"><button type="button" class="btn btn-secondary">
+	 <a href="https://rakskitchen.net/adhirasam-recipe-deepavali-recipes/" class="btn btn-secondary">Food Recipe</a></button>
+	 <button type="button" class="btn btn-secondary"><a href="https://www.youtube.com/embed/RH1gkQUiLJ4" class="btn btn-secondary">Cooking Video</a></button></div>
+	 </div>
+	  <div class="col-sm">
+	<h4 align="center">14. Mor Kulambu</h4>
+     <img src="img/morkulambu.jpg" class="rounded-pill" width="350" height="200"></br>
+	 <div class="form-group" align="center"><button type="button" class="btn btn-secondary">
+	 <a href="https://www.vegrecipesofindia.com/mor-kulambu-recipe/" class="btn btn-secondary">Food Recipe</a></button>
+	 <button type="button" class="btn btn-secondary"><a href="https://www.youtube.com/embed/W650wp3884k" class="btn btn-secondary">Cooking Video</a></button></div>
+	 </div>
+	  <div class="col-sm">
+	<h4 align="center">15. Sambar Sadham</h4>
+     <img src="img/sambarsadham.jpg" class="rounded-pill" width="350" height="200"></br>
+	 <div class="form-group" align="center"><button type="button" class="btn btn-secondary">
+	 <a href="https://www.indianhealthyrecipes.com/sambar-sadam-sambar-rice/" class="btn btn-secondary">Food Recipe</a></button>
+	 <button type="button" class="btn btn-secondary"><a href="https://www.youtube.com/embed/q6nQgSCqIBA" class="btn btn-secondary" >Cooking Video</a></button></div>
+	 </div>
+	 </div>
+	 </div>
+	 <div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4 align="center">16. Vazhakkai Poriyal</h4>
+     <img src="img/vazhakkaiporiyal.jpg" class="rounded-pill" width="350" height="200"></br>
+	 <div class="form-group" align="center"><button type="button" class="btn btn-secondary">
+	 <a href="https://www.vegrecipesofindia.com/raw-banana-poriyal-recipe-vazhakkai-poriyal/" class="btn btn-secondary">Food Recipe</a></button>
+	 <button type="button" class="btn btn-secondary"><a href="https://www.youtube.com/embed/50uh1xnYicw" class="btn btn-secondary">Cooking Video</a></button></div>
+	 </div>
+	  <div class="col-sm">
+	<h4 align="center">17. Thayir Sadham</h4>
+     <img src="img/thayirsadham.jpg" class="rounded-pill" width="350" height="200"></br>
+	 <div class="form-group" align="center"><button type="button" class="btn btn-secondary">
+	 <a href="https://www.vegrecipesofindia.com/curd-rice-how-to-make-curd-rice-thayir-sadam-bagala-bath/" class="btn btn-secondary">Food Recipe</a></button>
+	 <button type="button" class="btn btn-secondary"><a href="https://www.youtube.com/embed/6dFdG9mG0No" class="btn btn-secondary">Cooking Video</a></button></div>
+	 </div>
+	  <div class="col-sm">
+	<h4 align="center">18. Managa Urugai</h4>
+     <img src="img/mangaiurugai.jpg" class="rounded-pill" width="350" height="200"></br>
+	 <div class="form-group" align="center"><button type="button" class="btn btn-secondary">
+	 <a href="https://traditionallymodernfood.com/dried-cut-mango-pickle-oorugai-urugai-raw-manga/" class="btn btn-secondary">Food Recipe</a></button>
+	 <button type="button" class="btn btn-secondary"><a href="https://www.youtube.com/embed/hta07f5TXPA" class="btn btn-secondary" >Cooking Video</a></button></div>
+	 </div>
+	 </div>
+	 </div>
+	 <div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4 align="center">19. Ennai Katharikai</h4>
+     <img src="img/ennaikathariakai.jpg" class="rounded-pill" width="350" height="200"></br>
+	 <div class="form-group" align="center"><button type="button" class="btn btn-secondary">
+	 <a href="https://rakskitchen.net/ennai-kathirikai-kuzhambu-recipe-how-to-make-ennai-kathirikai-kuzhambu/" class="btn btn-secondary">Food Recipe</a></button>
+	 <button type="button" class="btn btn-secondary"><a href="https://www.youtube.com/embed/uFxRCQAtcMk" class="btn btn-secondary">Cooking Video</a></button></div>
+	 </div>
+	  <div class="col-sm">
+	<h4 align="center">20. Kozhukattai</h4>
+     <img src="img/kozhukattai.jpg" class="rounded-pill" width="350" height="200"></br>
+	 <div class="form-group" align="center"><button type="button" class="btn btn-secondary">
+	 <a href="https://www.vegrecipesofindia.com/kozhukattai-recipe/" class="btn btn-secondary">Food Recipe</a></button>
+	 <button type="button" class="btn btn-secondary"><a href="https://www.youtube.com/embed/-V_9LolCII0" class="btn btn-secondary">Cooking Video</a></button></div>
+	 </div>
+	  <div class="col-sm">
+	<h4 align="center">21. Kepakoozh</h4>
+     <img src="img/keppakoozh.jpg" class="rounded-pill" width="350" height="200"></br>
+	 <div class="form-group" align="center"><button type="button" class="btn btn-secondary">
+	 <a href="https://www.myhealthykiddo.com/ragi-koozh/" class="btn btn-secondary">Food Recipe</a></button>
+	 <button type="button" class="btn btn-secondary"><a href="https://www.youtube.com/embed/Ql9x7nACLuI" class="btn btn-secondary" >Cooking Video</a></button></div>
+	 </div>
+	 </div>
+	 </div>
+	 <div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4 align="center">22. Semiya Payasam</h4>
+     <img src="img/semiyapayasam.jpg" class="rounded-pill" width="350" height="200"></br>
+	 <div class="form-group" align="center"><button type="button" class="btn btn-secondary">
+	 <a href="https://www.vegrecipesofindia.com/semiya-payasam-recipe/" class="btn btn-secondary">Food Recipe</a></button>
+	 <button type="button" class="btn btn-secondary"><a href="https://www.youtube.com/embed/cPo5xbCrH_E" class="btn btn-secondary" >Cooking Video</a></button></div>
+	 </div>
+	  <div class="col-sm">
+	<h4 align="center">23. Uppu Urundai</h4>
+     <img src="img/uppuurundai.jpg" class="rounded-pill" width="350" height="200"></br>
+	 <div class="form-group" align="center"><button type="button" class="btn btn-secondary">
+	 <a href="https://revisfoodography.com/2015/05/uppu-urundai/" class="btn btn-secondary">Food Recipe</a></button>
+	 <button type="button" class="btn btn-secondary"><a href="https://www.youtube.com/embed/nglFiF1sOn8" class="btn btn-secondary">Cooking Video</a></button></div>
+	 </div>
+	  <div class="col-sm">
+	<h4 align="center">24. Milagu Rasam</h4>
+     <img src="img/milagurasam.jpg" class="rounded-pill" width="350" height="200"></br>
+	 <div class="form-group" align="center"><button type="button" class="btn btn-secondary">
+	 <a href="https://www.vegrecipesofindia.com/pepper-rasam-recipe-milagu-rasam/" class="btn btn-secondary">Food Recipe</a></button>
+	 <button type="button" class="btn btn-secondary"><a href="https://www.youtube.com/embed/16RPIb4DkWM" class="btn btn-secondary" >Cooking Video</a></button></div>
+	 </div>
+	 </div>
+	 </div>
+	 <div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4 align="center">25. Arisi Puttu</h4>
+     <img src="img/arisiputtu.jpg" class="rounded-pill" width="350" height="200"></br>
+	 <div class="form-group" align="center"><button type="button" class="btn btn-secondary">
+	 <a href="https://www.themagicsaucepan.com/festival/navrathri/navarathri-puttu-rice-flour-puttu" class="btn btn-secondary">Food Recipe</a></button>
+	 <button type="button" class="btn btn-secondary"><a href="https://www.youtube.com/embed/M44KDOyrO1c" class="btn btn-secondary">Cooking Video</a></button></div>
+	 </div>
+	  <div class="col-sm">
+	<h4 align="center">26. Kadalai Chutney</h4>
+     <img src="img/kadalaichutney.jpg" class="rounded-pill" width="350" height="200"></br>
+	 <div class="form-group" align="center"><button type="button" class="btn btn-secondary">
+	 <a href="https://www.nithaskitchen.com/2012/03/peanut-chutney.html" class="btn btn-secondary">Food Recipe</a></button>
+	 <button type="button" class="btn btn-secondary"><a href="https://www.youtube.com/embed/kuYFgGRMgrE" class="btn btn-secondary">Cooking Video</a></button></div>
+	 </div>
+	  <div class="col-sm">
+	<h4 align="center">27. Semiya Upma</h4>
+     <img src="img/semiyaupma.jpg" class="rounded-pill" width="350" height="200"></br>
+	 <div class="form-group" align="center"><button type="button" class="btn btn-secondary">
+	 <a href="https://www.indianhealthyrecipes.com/semiya-upma-vermicelli-upma-recipe/" class="btn btn-secondary">Food Recipe</a></button>
+	 <button type="button" class="btn btn-secondary"><a href="https://www.youtube.com/embed/p3BKsWS31mQ" class="btn btn-secondary" >Cooking Video</a></button></div>
+	 </div>
+	 </div>
+	 </div>
+	 <div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4 align="center">28. Paal Paniyaram</h4>
+     <img src="img/Paal-paniyaram.jpg" class="rounded-pill" width="350" height="200"></br>
+	 <div class="form-group" align="center"><button type="button" class="btn btn-secondary">
+	 <a href="https://rakskitchen.net/paal-paniyaram-recipe-how-to-prepare-paal-paniyaram/" class="btn btn-secondary">Food Recipe</a></button>
+	 <button type="button" class="btn btn-secondary"><a href="https://www.youtube.com/embed/IOSMEwbCfF0" class="btn btn-secondary">Cooking Video</a></button></div>
+	 </div>
+	  <div class="col-sm">
+	<h4 align="center">29. Puliyodharai</h4>
+     <img src="img/puliyodharai.jpg" class="rounded-pill" width="350" height="200"></br>
+	 <div class="form-group" align="center"><button type="button" class="btn btn-secondary">
+	 <a href="https://www.steffisrecipes.com/2017/03/tamarind-rice-recipe-puli-sadam.html" class="btn btn-secondary">Food Receipe</a></button>
+	 <button type="button" class="btn btn-secondary"><a href="https://www.youtube.com/embed/LWzCUeNw-6g" class="btn btn-secondary">Cooking Video</a></button></div>
+	 </div>
+	  <div class="col-sm">
+	<h4 align="center">30. Kezhvaraghu Adai</h4>
+     <img src="img/ragi adai.jpg" class="rounded-pill" width="350" height="200"></br>
+	 <div class="form-group" align="center"><button type="button" class="btn btn-secondary">
+	 <a href="https://www.kannammacooks.com/murungai-keerai-ragi-adai-recipe/" class="btn btn-secondary">Food Recipe</a></button>
+	 <button type="button" class="btn btn-secondary"><a href="https://www.youtube.com/embed/_4NIKe40l2w" class="btn btn-secondary" >Cooking Video</a></button></div>
+	 </div>
+	 </div>
+	 </div>
+<p></p>
+<p></p>
+	 </div>
+<!-- InstanceEndEditable -->
+</div>
+
+</body>
+<!-- InstanceEnd --></html>

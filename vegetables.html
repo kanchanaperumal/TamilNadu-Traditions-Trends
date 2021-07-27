@@ -1,0 +1,758 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/head.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+	
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Vegetables</title>
+<!-- InstanceEndEditable -->
+<meta name="viewport" content="width-device-width", initial scale="1.0"/>
+	<style type="text/css">
+		
+		body{
+	font-family:monospace;
+	outline: none;
+	background-image:url(img/1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color:#CCCCCC;
+	height:100%;
+		}
+		.dropdown-menu{
+		background-color:#CCCCCC;
+		}
+		.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+	top: 0;
+	left: 100%;
+	margin-top: -6px;
+	margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+	border-radius: 0 6px 6px 6px;
+	background-color: #CCCCCC;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #666666;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+Share
+Improve this answer
+Follow.style1 {color: #F0F0F0}
+    body,td,th {
+	color: #000000;
+	font-family: Georgia, Times New Roman, Times, serif;
+	font-style: italic;
+}
+.style7 {font-weight: bold}
+    .style8 {color: #000000}
+    </style>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <a class="navbar-brand" href="#"><img src="img/1.png" width="71" height="35" class="rounded" alt="Cinque Terre"></a>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="head.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+         <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Food
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li><a class="dropdown-item" href="fruits.html">Fruits</a></li>
+          <li><a class="dropdown-item" href="vegetables.html">Vegetables</a></li>
+		  
+          <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Recipes by Food</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="vegetarian.html">Vegetarian</a></li>
+              <li><a class="dropdown-item" href="Non-Vegetarian.html">Non-Vegetarian</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="dress.html">Dress</a>
+      </li>
+ <li class="nav-item">
+        <a class="nav-link" href="jewellary.html">Jwellery</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="appliences.html">Appliences</a>
+      </li>
+ <li class="nav-item">
+        <a class="nav-link" href="games.html">Games</a>
+      </li>
+    </ul>
+	    <ul class="nav navbar-nav navbar-right">
+      	  <li class="nav-item">
+        <a class="nav-link" href="logout.php"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-left" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z"/>
+  <path fill-rule="evenodd" d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"/>
+</svg>
+Logout<span class="sr-only">(current)</span></a>
+      </li>
+</ul>
+	
+  </div>
+</nav>
+<!-- InstanceBeginEditable name="EditRegion1" -->
+<div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>1. Brinjal or Eggplant</h4>
+        <img src="img/brinjal.jpg" width="300" height="170">
+    <h5>Tamil Name is "Kathrikai"</h5>
+	</div>
+    <div class="col-sm">
+	<h4>Benefits Of The Brinjal or Eggplant</h4>
+    <div align="justify">
+	    &#8226;  They contain a good amount of vitamins, minerals and fiber in few calories.</br>
+        &#8226;  May Reduce the Risk of Heart Disease.</br>
+        &#8226;  Could Help With Weight Loss. </br>
+        &#8226;  Very Easy to Add to Your Diet.</br>
+        &#8226;  It can also be used as a low-calorie replacement for many high-calorie ingredients.</br>
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/8gfIN47OZlY">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>2. Ladies Finger or Okra</h4>
+        <img src="img/ladies-finger.jpg" width="300" height="170">
+    <h5>Tamil Name is "Vendaikai"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Ladies Finger or Okra</h4>
+    <div align="justify">
+	    &#8226;  Okra is an excellent source of vitamins C & K1.</br>
+        &#8226;  Okra contains a type of protein called lectin, which may inhibit the growth of human cancer cells.</br>
+        &#8226;  It helps lower the risk of a neural tube defect, which affects the brain and spine of a developing fetus.</br>
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/6703TMHTH5c">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>3. Ivy Gourd</h4>
+        <img src="img/ivy gourd2.jpg" width="300" height="170">
+    <h5>Tamil Name is "Kovakkai"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Ivy Gourd</h4>
+    <div align="justify">
+	    &#8226;  Ivy gourd extract blood sugar.</br>
+        &#8226;  Ivy Gourd Prevents Obesity.</br>
+        &#8226;  Ivy Gourd for Fatigue. </br>
+        &#8226;  Ivy Gourd Defends Nervous System.</br>
+        &#8226;  Ivy Gourd Increased Metabolism.</br>
+		&#8226;  Ivy Gourd Improved Digestion.</br>
+        &#8226;	 Ivy gourd for kidney stones.</br>      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/hKdfdH2kOrw">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>4. Turkey Berry</h4>
+        <img src="img/turkey-berry-1296x728-header.jpg" width="300" height="170">
+    <h5>Tamil Name is "Chundakkai"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Turkey Berry</h4>
+    <div align="justify">
+	    &#8226;  Promotes Digestion.</br>
+        &#8226;  Treats Anaemia.</br>
+        &#8226;  Manages Diabetes. </br>
+        &#8226;  Regulates Menstruation.</br>
+        &#8226;  Effectively Combats Fever.</br>
+		&#8226;  Safeguards Against Infection.</br>
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/pELUazCxhv8">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>5. Potato</h4>
+        <img src="img/potato.jpg" width="300" height="170">
+    <h5>Tamil Name is "Urulaikilangu"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Potato</h4>
+    <div align="justify">
+	    &#8226;  Potatoes are an excellent source of many vitamins and minerals.</br>
+        &#8226;  Potatoes are rich in compounds like flavonoids, carotenoids and phenolic acids.</br>
+        &#8226;  Potatoes contain a special type of starch known as resistant starch. </br>
+        &#8226;  The resistant starch in potatoes may also improve digestive health.</br>
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/cAldJiWTjQc">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>6. Drum Stick or Moringa</h4>
+        <img src="img/drumstick.jpg" width="300" height="170">
+    <h5>Tamil Name is "Murungaikkai"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Drum Stick or Moringa</h4>
+    <div align="justify">
+	    &#8226;  Moringa is known for preventing acne and other skin issues.</br>
+        &#8226;  Good for hair and skin.</br>
+        &#8226;  Moringa is mostly advised to consume during the month of March- April, as due to its medical properties it can provide immunity against chicken pox.</br>
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/Y6-4MGh4QC4">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>7. Board or Fava Beans</h4>
+        <img src="img/broad-beans.jpg" width="300" height="170">
+    <h5>Tamil Name is "Avarakkai"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Board or Fava Beans</h4>
+    <div align="justify">
+	    &#8226;  For their relatively small size, fava beans pack an incredible amount of nutrients.</br>
+        &#8226;  May Help With Parkinson’s Disease Symptoms.</br>
+        &#8226;  Fava beans are loaded with folate, a nutrient that promotes healthy fetal development. </br>
+        &#8226;  May Help Lower Cholesterol.</br>
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/CRirhLOmlqg">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>8. Cluster Beans</h4>
+        <img src="img/cluster beans.jpg" width="300" height="170">
+    <h5>Tamil Name is "Kothavarangai"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Cluster Beans</h4>
+    <div align="justify">
+	    &#8226;  Full of Nutrients.</br>
+        &#8226;  Resolve anemia.</br>
+        &#8226;  Cluster beans contain gylconutrients that help in controlling blood sugar levels. </br>
+        &#8226;  Promotes heart health.</br>
+        &#8226;  Recommended during pregnancy.</br>
+		&#8226;  Better Blood Circulation.</br>
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/FlqtqjnuZ2s">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>9. Green or Raw Banana</h4>
+        <img src="img/banana1.jpg" width="300" height="170">
+    <h5>Tamil Name is "Vazhakkai"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Green or Raw Banana</h4>
+    <div align="justify">
+	    &#8226;  About 100 grams of banana has 2.6 grams of fibre.</br>
+        &#8226;  Just like the ripe bananas, green bananas too are extremely rich in potassium.</br>
+        &#8226;  Green bananas are a powerhouse of vitamins and minerals. </br>
+        &#8226;  Raw bananas have low sugar content.</br>
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/uj6CeVjMJUo">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>10. Bottle Gourd</h4>
+       <img src="img/bottle gourd.jpg" width="300" height="170">
+    <h5>Tamil Name is "Sorakkai"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Bottle Gourd</h4>
+    <div align="justify">
+	    &#8226;  You’ll definitely find one or the other person who is striving to lose weight.</br>
+        &#8226;  Bottle Gourd is a common medicine for disturbed digestion.</br>
+        &#8226;  Facilitates liver health. </br>
+        &#8226;  Acts as a natural sedative.</br>
+        &#8226;  Reduces the risk of several types of cancers and is good for diabetics.</br>
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/QGDgYTzn7tw">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>11. Ash Gourd</h4>
+        <img src="img/ash gourd.jpg" width="300" height="170">
+    <h5>Tamil Name is "Ash Gourd"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Ash Gourd</h4>
+    <div align="justify">
+	    &#8226;  Ash gourd stimulates the normal elimination of body wastes via the excretory system in the body.</br>
+        &#8226;  This immensely benefits lung function and also prevents any allergies and breathing difficulties.</br>
+        &#8226;  Ash gourd is an ideal option if you are looking to gain long and strong hair.</br>
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/fvMcs4ymgFc">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>12. Bitter Melon or Gourd</h4>
+        <img src="img/bitter gourd.jpg" width="300" height="170">
+    <h5>Tamil Name is "Pavakkai"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Bitter Melon or Gourd</h4>
+    <div align="justify">
+	    &#8226;  In recent years, several studies confirmed the fruit’s role in blood sugar control.</br>
+        &#8226;  Several animal studies found that bitter melon may decrease cholesterol levels to support overall heart health.</br>
+        &#8226;  Bitter melon has a sharp flavor that works well in many dishes. </br>
+        </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/YAxdhbJZoy4">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>13. Radish</h4>
+        <img src="img/radish.jpg" width="300" height="170">
+    <h5>Tamil Name is "Mullangi"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Radish</h4>
+    <div align="justify">
+	    &#8226;  Fortifies Blood Vessels.</br>
+        &#8226;  Metabolism-Friendly.</br>
+        &#8226;  Red radishes are packed with Vitamins E, A, C, B6, and K. </br>
+        &#8226;  Good for the Skin.</br>
+        &#8226;  Good for Hydration.</br>
+		&#8226;  Improves Immunity.</br>
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/QjYLFb46rtk">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>14. Tomato</h4>
+        <img src="img/tomato.jpg" width="300" height="170">
+    <h5>Tamil Name is "Thakkali"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Tomato</h4>
+    <div align="justify">
+	    &#8226;  Maintaining a low sodium intake helps to maintain healthful blood pressure.</br>
+        &#8226;  Tomatoes are an excellent source of vitamin C and other antioxidants.</br>
+        &#8226;  The fiber, potassium, vitamin C, and choline content in tomatoes all support heart health. </br>
+        &#8226;  A deficiency of vitamin C can lead to scurvy.</br>
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/TSl9gSMu9OA">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>15. Pumkin</h4>
+        <img src="img/pumkin.jpg" width="300" height="170">
+    <h5>Tamil Name is "Poosanikkai"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Pumkin</h4>
+    <div align="justify">
+	    &#8226;  Highly Nutritious and Particularly Rich in Vitamin A.</br>
+        &#8226;  High Antioxidant Content May Reduce Your Risk of Chronic Diseases.</br>
+        &#8226;  Packs Vitamins That May Boost Immunity. </br>
+        &#8226;  Vitamin A, Lutein and Zeaxanthin May Protect Your Eyesight.</br>
+        </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/pwc-vsiejhw">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>16. Garlic</h4>
+        <img src="img/garlic.jpg" width="300" height="170">
+    <h5>Tamil Name is "Poondu"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Garlic</h4>
+    <div align="justify">
+	    &#8226;  Garlic is going to provide you relief from that stubborn cold and flu.</br>
+        &#8226;  It is also immensely beneficial to regulate blood pressure and blood sugar levels.</br>
+        &#8226;  It is said to strengthen the immunity of the body against cancer. </br>
+        &#8226;  It is also an effective remedy for fungal infections like athlete's foot and ringworms.</br>
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/_YvTPxZ7iak">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>17. Elephant Yam</h4>
+        <img src="img/elephant yam.JPG" width="300" height="170">
+    <h5>Tamil Name is "Karunai Kizhangu"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Elephant Yam</h4>
+    <div align="justify">
+	    &#8226;  It is widely used as a slimming food.</br>
+        &#8226;  Elephant Yam is really very helpful in maintaining good cardiovascular health.</br>
+        &#8226;  It also helps in relieving the clots formed in arteries and veins. </br>
+        &#8226;  The powerful antioxidants present in elephant foot yam is said to be effective in slowing down the aging process.</br>
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/_rTsnjKM6mg">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>18. Onion</h4>
+        <img src="img/onion.jpg" width="300" height="170">
+    <h5>Tamil Name is "Vengayam"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Onion</h4>
+    <div align="justify">
+	    &#8226;  Onions might have positive effects on several different aspects of health.</br>
+        &#8226;  Collagen provides structure to skin and hair.</br>
+        &#8226;  Some hypothesize that onions inhibit tumor growth and cell mutation. </br>
+        &#8226;  Further research is necessary to confirm which compounds in onion have protective effects against cancer.</br>
+        </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/KukjKh81Ha0">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>19. Ginger</h4>
+        <img src="img/Ginger.jpg" width="300" height="170">
+    <h5>Tamil Name is "Inji"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Ginger</h4>
+    <div align="justify">
+	    &#8226;  Many people use ginger to help recover from a cold or the flu.</br>
+        &#8226;  Ginger may have anti-inflammatory, antibacterial, antiviral, and other healthful properties. Below are some of the possible medicinal uses of ginger.</br>
+        &#8226;  Ginger does not provide protein or other nutrients.</br>
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/nsb01YrwjtE">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>20. Green Chilly</h4>
+        <img src="img/chilly.jpg" width="300" height="170">
+    <h5>Tamil Name is "Milagai"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Green Chilly</h4>
+    <div align="justify">
+	    &#8226;  Green chillies also exert a number of beneficial effects on the cardiovascular system.</br>
+        &#8226;  This action makes it beneficial in combating the common cold or sinus infections.</br>
+        &#8226;  Loaded with Vitamin C and beta-carotene, green chillies are great for healthy eyes, skin and immune system. </br>
+        </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/7q7DvZWD8E8">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>21. Small Onion</h4>
+        <img src="img/Small Onion.jpg" width="300" height="170">
+    <h5>Tamil Name is "Chinna Vengayam"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Small Onion</h4>
+    <div align="justify">
+	    &#8226;  Regular intake of small onions does not cause nervous breakdown in our body.</br>
+        &#8226;  Eating small onion will get rid of cold quickly.</br>
+        &#8226;  Chewing and eating small onions will reduce toothache quickly. </br>
+        &#8226;  Eating small onions daily does not cause digestive problems in our body.</br>
+        </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/yVm1z_iNFR0">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>22. Snake Gourd</h4>
+        <img src="img/snake gourd.jpg" width="300" height="170">
+    <h5>Tamil Name is "Pudalangai"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Snake Gourd</h4>
+    <div align="justify">
+	    &#8226;  Accelerates Weight Loss.</br>
+        &#8226;  Augments Heart Function.</br>
+        &#8226;  Detoxifies The Kidneys. </br>
+        &#8226;  Enhances Digestive System.</br>
+        &#8226;  Strengthens Respiratory Processes.</br>
+		&#8226;  Complements Ketogenic Diet.</br>
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/72mBSA3DLdA">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>23. Ridge Gourd</h4>
+        <img src="img/Ridge-gourd.jpg" width="300" height="170">
+    <h5>Tamil Name is "Peerkangai"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Ridge Gourd</h4>
+    <div align="justify">
+	    &#8226;  Having profuse quantities of iron, eating ridge gourd regularly with meals helps to cure anemia, caused due to iron deficiency.</br>
+        &#8226;  Ridge gourd is inherently low in calories and possesses negligible concentrations of saturated fats and cholesterol.</br>
+        &#8226;  Ridge gourd is bestowed with the ability to purify blood of toxic wastes.</br>
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/YMI-cUuEgiA">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>23. Mashroom</h4>
+        <img src="img/mashroom.jpg" width="300" height="170">
+    <h5>Tamil Name is "Kalaan"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Mashroom</h4>
+    <div align="justify">
+	    &#8226;  Mushrooms are a low-calorie food that packs a nutritional punch.</br>
+        &#8226;  Mushrooms are widely known for their great taste and amazing health benefits.</br>
+        &#8226;  Potassium also lessens the tension in blood vessels, potentially helping to lower blood pressure. </br>
+        &#8226;  The anti-inflammatory effect of mushrooms has been shown to greatly improve the efficiency of the immune system.</br>
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/4b95r01QtDA">
+     </iframe>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+	<h4>25. Raw Mango</h4>
+        <img src="img/raw mango.jpg" width="300" height="170">
+    <h5>Tamil Name is "Mangai"</h5></div>
+    <div class="col-sm">
+	<h4>Benefits Of The Raw Mango</h4>
+    <div align="justify">
+	    &#8226;  Hailed as the king of fruits, mangoes are rich in essential nutrition and high in vitamin C.</br>
+        &#8226;  Eating raw mangoes can help us in many ways.</br>
+        &#8226;  It is rich in vitamin A and vitamin E that enhances one's hormonal system. </br>
+        &#8226;  It is the most loved refreshing drink prepared mostly in summers.</br>
+      </div>
+    </div>
+      <div class="col-sm">
+		<h4>Video Here</h4>
+	    <p></p>
+     <iframe width="350" height="200"
+          src="https://www.youtube.com/embed/R4cMg6pKqk4">
+     </iframe>
+    </div>
+  </div>
+</div>
+ </div>
+<!-- InstanceEndEditable -->
+</div>
+
+</body>
+<!-- InstanceEnd --></html>
